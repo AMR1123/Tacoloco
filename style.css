@@ -385,3 +385,42 @@ form button:hover{
 #footer a{
     color: #d79b19;
 }
+/* ****************************************responser****************************** */
+@media screen and (max-width:900px) {
+    
+    #footer{
+        
+        }
+    header{
+        
+        display: inline-block;
+        position: relative;
+        flex-basis: 100%;
+        
+        
+
+    }
+    main{
+        
+        display: inline-block;
+        position: relative;
+        flex-basis: 100%;
+
+    }
+    main .about-content p{
+        display: none;
+    }
+    main #offers{
+        height: 90vh;
+        flex-basis: 100%;
+        
+    }
+    #menu .menu-item h3{
+        
+         padding-top:30px; 
+    }
+}
+
+
+
+
