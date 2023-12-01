@@ -386,6 +386,9 @@ form button:hover{
     color: #d79b19;
 }
 /* ****************************************responser****************************** */
+.mora{
+    display: none;
+}
 /* *********************media to tab************** */
 @media(max-width:1000px){
 #navbar img{
@@ -437,9 +440,16 @@ form button:hover{
     #contact .contact-content{
         flex-direction: column;
     }
+    
 }
 /* *********************** media mobile************ */
 @media(max-width:600px){
+    #about{
+        height: 80vh;
+    }
+    header{
+        height: 100vh;
+    }
     body{
         width: auto;
     }
@@ -490,6 +500,11 @@ form button:hover{
         width: 200px;
         height: auto;
     }
+    #about .about-content img{
+        width: 300px;
+    }
+    
+    
         
 
 
