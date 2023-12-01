@@ -483,7 +483,13 @@ form button:hover{
         width: 80%;
 
     }
-        
+    #gallery .galleryimg{
+        transition: 3s;
+    }
+    #gallery .galleryimg img{
+        width: 200px;
+        height: auto;
+    }
         
 
 
