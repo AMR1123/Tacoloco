@@ -386,41 +386,105 @@ form button:hover{
     color: #d79b19;
 }
 /* ****************************************responser****************************** */
-@media screen and (max-width:900px) {
-    
-    #footer{
-        
-        }
-    header{
-        
-        display: inline-block;
-        position: relative;
-        flex-basis: 100%;
-        
-        
+/* *********************media to tab************** */
+@media(max-width:1000px){
+#navbar img{
+    margin-left:10px;
+    margin-top: 10px;
+    }
+    #navbar nav ul{
+        margin-right: 20px;
+    }
+    #navbar nav ul li a{
+        padding: 12px 10px;
+    }
+    #contect h1{
+        font-size: 25px;
+    }
+    #contect p{
+        font-size: 15px;
+    }
+    button{
+        padding: 5px 20px;
 
     }
-    main{
-        
-        display: inline-block;
-        position: relative;
-        flex-basis: 100%;
-
+    #about{
+        height: auto;
+        padding: 4rem 2rem;
     }
-    main .about-content p{
-        display: none;
+    #about p{
+        font-size: 10px;
     }
-    main #offers{
-        height: 90vh;
-        flex-basis: 100%;
-        
+    #about .about-content img{
+        width: 350px;
     }
-    #menu .menu-item h3{
-        
-         padding-top:30px; 
+    .button{
+        padding: 5px 15px;
+    }
+    #offers{
+        height: auto;
+    }
+    .oferitemss h3{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .oferitemss p{
+        font-size: 10px;
+    }
+    #menu .menu-items{
+        display: block;
+    }
+    #contact .contact-content{
+        flex-direction: column;
     }
 }
+/* *********************** media mobile************ */
+@media(max-width:600px){
+    body{
+        width: auto;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar img{
+    width: 100px;
+    margin-bottom: 20px;
+    }
+    #contect h1{
+        font-size: 20px;
+    }
+    #contect p{
+        font-size: 13px;
+    }
+    #about .about-content{
+        flex-direction: column;
+    }
+    #about .button{
+        margin: 2rem 0;
+
+    }
+    .oferitemss img{
+        width: 100px;
+    }
+    #menu .menu-items .menu-item{
+        margin: 20px 10px;
+    }
+    #daytime .daytime-items{
+        display: block;
+        height: auto;
+        padding: 30px 0px;
+        
+    }
+    #daytime .daytime-items .daytime-item{
+        margin-top: 20px;
+    }
+    #contact .contact-content .contact-info,
+    form{
+        width: 80%;
+
+    }
+        
+        
 
 
-
-
+}
