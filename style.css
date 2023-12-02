@@ -503,11 +503,6 @@ form button:hover{
     #about .about-content img{
         width: 300px;
     }
-    
-    
-        
-
-
 }
 @media(max-width:400px){
     #menu .menu-items .menu-item{
@@ -515,5 +510,25 @@ form button:hover{
         /* width: 100%; */
         flex-wrap: wrap;
     }
-
+    #about{
+        height: auto;
+    }
+    #about .about-content img{
+        width: 250px;
+    }
+    #contect p{
+        font-size: 13px;
+    }
+    #contect{
+        margin-left: 20px;
+    }
+    #navbar nav ul li a{
+        padding: 5px 5px;
+    }
+    .oferitemss{
+        flex-direction: column;
+    }
+        
 }
+
+
