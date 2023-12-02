@@ -494,9 +494,9 @@ form button:hover{
         width: 200px;
         height: auto;
     }
-    #about .about-content img{
+    /* #about .about-content img{
         width: 300px;
-    }
+    } */
 }
 @media(max-width:400px){
     #menu .menu-items .menu-item{
@@ -523,6 +523,13 @@ form button:hover{
         flex-direction: column;
     }
         
+}
+@media(max-width:500px){
+     #about .about-content img{
+        width: 230px;
+        margin-top:-15px;
+     }
+     
 }
 
 
