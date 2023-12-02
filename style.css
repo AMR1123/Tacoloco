@@ -444,9 +444,7 @@ form button:hover{
 }
 /* *********************** media mobile************ */
 @media(max-width:600px){
-    #about{
-        height: 80vh;
-    }
+   
     #navbar{
         flex-direction: column;
     }
@@ -503,9 +501,6 @@ form button:hover{
         /* flex-direction: column; */
         /* width: 100%; */
         flex-wrap: wrap;
-    }
-    #about{
-        height: auto;
     }
     #about .about-content img{
         width: 250px;
