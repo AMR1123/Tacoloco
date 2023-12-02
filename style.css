@@ -509,3 +509,11 @@ form button:hover{
 
 
 }
+@media(max-width:400px){
+    #menu .menu-items .menu-item{
+        /* flex-direction: column; */
+        /* width: 100%; */
+        flex-wrap: wrap;
+    }
+
+}
